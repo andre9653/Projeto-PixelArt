@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  font-family: VT323, monospace;
+  font-size: 25px;
+}
+
+
+body {
+  background-color: rgb(215, 249, 241);
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin: 30px 0;
+  font-weight: 200;
+}
+
+main {
+  text-align: center;
+}
+
+.color {
+  border: solid black;
+  border-width: 1px;
+  display: inline-block;
+  height: 50px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+#painel {
+  margin-top: 20px;
+}
+
+.pixel {
+  background-color: white;
+  border: solid black;
+  border-width: 1px;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+}
+
+#pixel-board {
+  background-color: rgb(92, 109, 112);
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.divLines {
+  display: block;
+  height: 40px;
+}
+
+#board-size {
+  text-align: center;
+  width: 120px;
+}
+
+#PaletaDeCores {
+  background-color: rgb(92, 109, 112);
+  display: inline-block;
+  padding: 20px;
+}
